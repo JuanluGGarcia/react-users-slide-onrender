@@ -1,5 +1,9 @@
+import Cards from "./components/cards/Cards";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<Cards />
+	);				
 };
 
 export default App;
